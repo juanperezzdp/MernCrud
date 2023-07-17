@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Uri_DB = 'mongodb://localhost:27017/MERNcrud';
+const Uri_DB = 'mongodb://0.0.0.0:27017/MERNcrud';
 
 const connect = async () => {
   try {
